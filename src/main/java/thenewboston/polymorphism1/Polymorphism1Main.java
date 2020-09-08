@@ -12,7 +12,7 @@ public class Polymorphism1Main {
         bucky[1] = new Tuna();
 
         // Tuna and Potpie are food type
-        // Anything that inherit from Food which is supe class can be assigned to Bucky
+        // Anything that inherit from Food which is super class can be assigned to Bucky
         
         for (int x = 0; x < 2; ++x) {
             bucky[x].eat();
