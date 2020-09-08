@@ -20,7 +20,6 @@ public class Question12 {
 
     public static void main(String[] args) {
         
-        Panda p = new Panda();
         System.out.println(Panda.Quill.i);
     }
 }
