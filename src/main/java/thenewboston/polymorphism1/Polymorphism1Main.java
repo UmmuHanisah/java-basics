@@ -3,6 +3,9 @@ package thenewboston.polymorphism1;
 /**
  *
  * @author uha
+ * 
+ * @title Java Programming Tutorial - 55 - Introduction to Polymorphism
+ * @source https://www.youtube.com/watch?v=0xw06loTm1k
  */
 public class Polymorphism1Main {
 
