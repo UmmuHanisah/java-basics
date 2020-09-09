@@ -1,9 +1,5 @@
-<#if licenseFirst??>
-${licenseFirst}
-</#if>
-${licensePrefix}Copyright New Hut Pte 
-${licensePrefix}All Rights Reserved
-@date ${date?date?string("dd.MM.yyyy")}
-<#if licenseLast??>
-${licenseLast}
-</#if>
+/**
+ *
+ * @author uha
+ * @date ${date?date?string("dd-MM-yyyy")}
+ */
