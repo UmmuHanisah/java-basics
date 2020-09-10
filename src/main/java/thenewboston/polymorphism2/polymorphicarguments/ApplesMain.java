@@ -19,3 +19,9 @@ public class ApplesMain {
         bucky.digest(po);
     }
 }
+
+/*Output
+* ######
+* This food is great
+* This potpie is great
+*/
