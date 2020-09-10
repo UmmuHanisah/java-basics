@@ -21,5 +21,10 @@ public class Polymorphism1Main {
             bucky[x].eat();
         }
     }
-
 }
+
+/*Output
+* ######
+* This potpie is great
+* This tuna is great
+*/
