@@ -9,14 +9,15 @@ package telusko.interfacejava8;
 
 interface Phone {
     void call();
-    default void message(){
+    default void message(){ // new feature in Java 8, we can define a method in it (a method with body)
+        System.out.println("Send message");
     }
 }
 
 class AndroidPhone implements Phone {
 
     @Override
-    public void call() {
+    public void call() { // call method must be implement coz it's an abstract method
         System.out.println("Calling");
     }
 }
@@ -28,3 +29,9 @@ public class DemoInterface {
         p.message();
     }
 }
+
+/* Output
+   ######
+   Calling
+   Send message
+*/
