@@ -26,7 +26,7 @@ public class SampleExceptionHandling {
                 int sum = number1/number2; // Error divided by zero will happen here
 
                 System.out.println("The answer is: " + sum);
-                i = 2; // if all statement in try successfully executed without error, i will assigned to 2 and stop
+                i = 2; // if all statement in try block successfully executed without error, i will assigned to 2 and stop
             } catch (Exception e) {
                 System.out.println("You can't do that");
                 System.out.println("");
