@@ -1,3 +1,7 @@
+package thenewboston.exceptionhandling;
+
+import java.util.Scanner;
+
 /**
  *
  * @author Ummu Hanisah
@@ -5,10 +9,6 @@
  * @title Java Programming Tutorial - 82 - Exception Handling
  * @source https://www.youtube.com/watch?v=K_-3OLkXkzY
  */
-package thenewboston.exceptionhandling;
-
-import java.util.Scanner;
-
 public class SampleExceptionHandling {
 
     public static void main(String[] args) {
